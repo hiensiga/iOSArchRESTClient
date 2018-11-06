@@ -171,8 +171,7 @@
 		3F4615642191965B00CF4BBB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */,
-				3F4615392191924500CF4BBB /* Main.storyboard */,
+				3F461571219198FA00CF4BBB /* StoryBoards */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +179,10 @@
 		3F4615652191966900CF4BBB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3F46156E2191985F00CF4BBB /* Model */,
+				3F46156D2191981800CF4BBB /* Local */,
+				3F46156F2191986900CF4BBB /* Remote */,
+				3F4615702191987200CF4BBB /* Repository */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,6 +236,43 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		3F46156D2191981800CF4BBB /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		3F46156E2191985F00CF4BBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F46156F2191986900CF4BBB /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		3F4615702191987200CF4BBB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3F461571219198FA00CF4BBB /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */,
+				3F4615392191924500CF4BBB /* Main.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 		FC03B98B755D07CCA122DB18 /* Frameworks */ = {
