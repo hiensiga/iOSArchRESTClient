@@ -127,12 +127,16 @@
 		3F4615342191924500CF4BBB /* iOSArchRESTClient */ = {
 			isa = PBXGroup;
 			children = (
-				3F4615352191924500CF4BBB /* AppDelegate.swift */,
-				3F4615372191924500CF4BBB /* ViewController.swift */,
-				3F4615392191924500CF4BBB /* Main.storyboard */,
-				3F46153C2191925300CF4BBB /* Assets.xcassets */,
-				3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */,
-				3F4615412191925300CF4BBB /* Info.plist */,
+				3F4615632191965000CF4BBB /* Application */,
+				3F4615662191967500CF4BBB /* ViewControllers */,
+				3F4615672191968500CF4BBB /* ViewModels */,
+				3F4615652191966900CF4BBB /* Models */,
+				3F4615642191965B00CF4BBB /* Views */,
+				3F46156A219196E200CF4BBB /* Helpers */,
+				3F46156C219196FA00CF4BBB /* Services */,
+				3F461569219196D400CF4BBB /* Extensions */,
+				3F46156B219196F000CF4BBB /* Libraries */,
+				3F4615682191969C00CF4BBB /* Resources */,
 			);
 			path = iOSArchRESTClient;
 			sourceTree = "<group>";
@@ -153,6 +157,82 @@
 				3F4615572191925400CF4BBB /* Info.plist */,
 			);
 			path = iOSArchRESTClientUITests;
+			sourceTree = "<group>";
+		};
+		3F4615632191965000CF4BBB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3F4615412191925300CF4BBB /* Info.plist */,
+				3F4615352191924500CF4BBB /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3F4615642191965B00CF4BBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */,
+				3F4615392191924500CF4BBB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F4615652191966900CF4BBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F4615662191967500CF4BBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F4615372191924500CF4BBB /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F4615672191968500CF4BBB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3F4615682191969C00CF4BBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F46153C2191925300CF4BBB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F461569219196D400CF4BBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F46156A219196E200CF4BBB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3F46156B219196F000CF4BBB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		3F46156C219196FA00CF4BBB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		FC03B98B755D07CCA122DB18 /* Frameworks */ = {
