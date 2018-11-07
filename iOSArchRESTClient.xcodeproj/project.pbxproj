@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B31F9C6E911717D3C42598A /* Pods_iOSArchRESTClient_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045227D05A48BBBD7959F54D /* Pods_iOSArchRESTClient_dev.framework */; };
 		26BC216FC9B2FF140EBB3397 /* Pods_iOSArchRESTClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857798E65A64D32E7826699F /* Pods_iOSArchRESTClientUITests.framework */; };
 		2B482C075EE4B4BAD949F438 /* Pods_iOSArchRESTClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CEC6DB340A6E9C1A6086AF /* Pods_iOSArchRESTClientTests.framework */; };
 		3F4615362191924500CF4BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4615352191924500CF4BBB /* AppDelegate.swift */; };
@@ -45,11 +46,15 @@
 
 /* Begin PBXFileReference section */
 		0141D1C66E074720B87A6EFA /* Pods-iOSArchRESTClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0158461638D29D7130224819 /* Pods-iOSArchRESTClient-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		045227D05A48BBBD7959F54D /* Pods_iOSArchRESTClient_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClient_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BB687DBB7DF2D3F09DC7AE /* Pods-iOSArchRESTClientTests.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug-test.xcconfig"; sourceTree = "<group>"; };
 		10434DA2D57C561AB633E97B /* Pods-iOSArchRESTClientUITests.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug-test.xcconfig"; sourceTree = "<group>"; };
 		10D8535A9864FF9AE25DEC29 /* Pods-iOSArchRESTClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		15DEE36BD27ECAB78E198A7E /* Pods-iOSArchRESTClientUITests.release-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-test.xcconfig"; sourceTree = "<group>"; };
+		1AE974401625E22B012DA70A /* Pods-iOSArchRESTClient-dev.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.debug-stag.xcconfig"; sourceTree = "<group>"; };
 		271CD69E8D76779E430FD6ED /* Pods-iOSArchRESTClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		37AB583B91873A84C7139A09 /* Pods-iOSArchRESTClient-dev.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.debug-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.debug-prod.xcconfig"; sourceTree = "<group>"; };
 		3F4615322191924500CF4BBB /* iOSArchRESTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchRESTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4615352191924500CF4BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F4615372191924500CF4BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,19 +74,24 @@
 		3F929A1B2192A049003B0243 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		3F929A1D2192A049003B0243 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		51A5F1EDDB6231CFAC9C4813 /* Pods-iOSArchRESTClient.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug-test.xcconfig"; sourceTree = "<group>"; };
+		526478826D53355B635353CD /* Pods-iOSArchRESTClient-dev.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.release-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.release-prod.xcconfig"; sourceTree = "<group>"; };
 		5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C8A27FA0C9058532D10914 /* Pods-iOSArchRESTClientUITests.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-stag.xcconfig"; sourceTree = "<group>"; };
 		5AADE1A802FBFC81340E39B7 /* Pods-iOSArchRESTClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F52E9506B330CF9B708C50B /* Pods-iOSArchRESTClient-dev.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.release-stag.xcconfig"; sourceTree = "<group>"; };
 		62B9E582EEA65574CBC29EDF /* Pods-iOSArchRESTClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release.xcconfig"; sourceTree = "<group>"; };
 		6A66DF9D1262992A227C3AC3 /* Pods-iOSArchRESTClientTests.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release-prod.xcconfig"; sourceTree = "<group>"; };
+		6E1761738F15FB4FA85A75F5 /* Pods-iOSArchRESTClient-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.release.xcconfig"; sourceTree = "<group>"; };
 		767EECD5773262D9BBD5CED9 /* Pods-iOSArchRESTClient.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release-stag.xcconfig"; sourceTree = "<group>"; };
 		80496A27FE0E77898839D5BF /* Pods-iOSArchRESTClient.release-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release-test.xcconfig"; sourceTree = "<group>"; };
 		83C4EC932F8FC83E8ACDB3FC /* Pods-iOSArchRESTClientTests.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug-stag.xcconfig"; sourceTree = "<group>"; };
 		857798E65A64D32E7826699F /* Pods_iOSArchRESTClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90289F1FF8C5B1C7922DBE0B /* Pods-iOSArchRESTClient.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug-stag.xcconfig"; sourceTree = "<group>"; };
 		904B598EB7E3704E7F4628B8 /* Pods-iOSArchRESTClientUITests.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-prod.xcconfig"; sourceTree = "<group>"; };
+		957D95FF2BCE9C2E81AA242B /* Pods-iOSArchRESTClient-dev.release-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.release-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.release-test.xcconfig"; sourceTree = "<group>"; };
 		9D12947248DA83FF0E73C17C /* Pods-iOSArchRESTClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug.xcconfig"; sourceTree = "<group>"; };
 		A1CEC6DB340A6E9C1A6086AF /* Pods_iOSArchRESTClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E5958BB12853A7D4CAA4A3 /* Pods-iOSArchRESTClient-dev.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient-dev.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient-dev/Pods-iOSArchRESTClient-dev.debug-test.xcconfig"; sourceTree = "<group>"; };
 		B784EAC019334C4F7DBE68F4 /* Pods-iOSArchRESTClientUITests.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug-stag.xcconfig"; sourceTree = "<group>"; };
 		BA7FEFA455CF03374FC86784 /* Pods-iOSArchRESTClientTests.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release-stag.xcconfig"; sourceTree = "<group>"; };
 		BD99210D0F8241C6BE981798 /* Pods-iOSArchRESTClientUITests.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug-prod.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F929A1C2192A049003B0243 /* HealthKit.framework in Frameworks */,
+				1B31F9C6E911717D3C42598A /* Pods_iOSArchRESTClient_dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +166,14 @@
 				904B598EB7E3704E7F4628B8 /* Pods-iOSArchRESTClientUITests.release-prod.xcconfig */,
 				53C8A27FA0C9058532D10914 /* Pods-iOSArchRESTClientUITests.release-stag.xcconfig */,
 				15DEE36BD27ECAB78E198A7E /* Pods-iOSArchRESTClientUITests.release-test.xcconfig */,
+				0158461638D29D7130224819 /* Pods-iOSArchRESTClient-dev.debug.xcconfig */,
+				37AB583B91873A84C7139A09 /* Pods-iOSArchRESTClient-dev.debug-prod.xcconfig */,
+				1AE974401625E22B012DA70A /* Pods-iOSArchRESTClient-dev.debug-stag.xcconfig */,
+				B6E5958BB12853A7D4CAA4A3 /* Pods-iOSArchRESTClient-dev.debug-test.xcconfig */,
+				6E1761738F15FB4FA85A75F5 /* Pods-iOSArchRESTClient-dev.release.xcconfig */,
+				526478826D53355B635353CD /* Pods-iOSArchRESTClient-dev.release-prod.xcconfig */,
+				5F52E9506B330CF9B708C50B /* Pods-iOSArchRESTClient-dev.release-stag.xcconfig */,
+				957D95FF2BCE9C2E81AA242B /* Pods-iOSArchRESTClient-dev.release-test.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -359,6 +378,7 @@
 				5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */,
 				A1CEC6DB340A6E9C1A6086AF /* Pods_iOSArchRESTClientTests.framework */,
 				857798E65A64D32E7826699F /* Pods_iOSArchRESTClientUITests.framework */,
+				045227D05A48BBBD7959F54D /* Pods_iOSArchRESTClient_dev.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -426,6 +446,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9299FF219297FC003B0243 /* Build configuration list for PBXNativeTarget "iOSArchRESTClient-dev" */;
 			buildPhases = (
+				ECAC565127516790B83A7C2B /* [CP] Check Pods Manifest.lock */,
 				3F9299F6219297FC003B0243 /* Sources */,
 				3F9299F9219297FC003B0243 /* Frameworks */,
 				3F9299FB219297FC003B0243 /* Resources */,
@@ -611,6 +632,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-iOSArchRESTClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAC565127516790B83A7C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSArchRESTClient-dev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1675,6 +1718,7 @@
 		};
 		3F929A00219297FC003B0243 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0158461638D29D7130224819 /* Pods-iOSArchRESTClient-dev.debug.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "DEVELOPMENT=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1697,6 +1741,7 @@
 		};
 		3F929A01219297FC003B0243 /* Debug-PROD */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AB583B91873A84C7139A09 /* Pods-iOSArchRESTClient-dev.debug-prod.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "PRODUCTION=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1719,6 +1764,7 @@
 		};
 		3F929A02219297FC003B0243 /* Debug-STAG */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE974401625E22B012DA70A /* Pods-iOSArchRESTClient-dev.debug-stag.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "STAGING=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1741,6 +1787,7 @@
 		};
 		3F929A03219297FC003B0243 /* Debug-TEST */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E5958BB12853A7D4CAA4A3 /* Pods-iOSArchRESTClient-dev.debug-test.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "TESTING=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1763,6 +1810,7 @@
 		};
 		3F929A04219297FC003B0243 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1761738F15FB4FA85A75F5 /* Pods-iOSArchRESTClient-dev.release.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "DEVELOPMENT=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1785,6 +1833,7 @@
 		};
 		3F929A05219297FC003B0243 /* Release-PROD */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526478826D53355B635353CD /* Pods-iOSArchRESTClient-dev.release-prod.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "PRODUCTION=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1807,6 +1856,7 @@
 		};
 		3F929A06219297FC003B0243 /* Release-STAG */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F52E9506B330CF9B708C50B /* Pods-iOSArchRESTClient-dev.release-stag.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "STAGING=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1829,6 +1879,7 @@
 		};
 		3F929A07219297FC003B0243 /* Release-TEST */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957D95FF2BCE9C2E81AA242B /* Pods-iOSArchRESTClient-dev.release-test.xcconfig */;
 			buildSettings = {
 				APP_ENVIROMENT = "TESTING=1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

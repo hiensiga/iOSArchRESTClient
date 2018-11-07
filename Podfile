@@ -7,6 +7,12 @@ target 'iOSArchRESTClient' do
 
   # Pods for iOSArchRESTClient
 
+  
+  target 'iOSArchRESTClient-dev' do
+      inherit! :search_paths
+      # Pods for testing
+  end
+      
   target 'iOSArchRESTClientTests' do
     inherit! :search_paths
     # Pods for testing
