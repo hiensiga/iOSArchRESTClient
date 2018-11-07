@@ -16,6 +16,12 @@
 		3F4615402191925300CF4BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */; };
 		3F46154B2191925400CF4BBB /* iOSArchRESTClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F46154A2191925400CF4BBB /* iOSArchRESTClientTests.swift */; };
 		3F4615562191925400CF4BBB /* iOSArchRESTClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4615552191925400CF4BBB /* iOSArchRESTClientUITests.swift */; };
+		3F9299F7219297FC003B0243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4615372191924500CF4BBB /* ViewController.swift */; };
+		3F9299F8219297FC003B0243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4615352191924500CF4BBB /* AppDelegate.swift */; };
+		3F9299FC219297FC003B0243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */; };
+		3F9299FD219297FC003B0243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F46153C2191925300CF4BBB /* Assets.xcassets */; };
+		3F9299FE219297FC003B0243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4615392191924500CF4BBB /* Main.storyboard */; };
+		4517798C7708706444B5817A /* Pods_iOSArchRESTClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */; };
 		A5857E8466B7C1996E2B81D0 /* Pods_iOSArchRESTClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +44,10 @@
 
 /* Begin PBXFileReference section */
 		0141D1C66E074720B87A6EFA /* Pods-iOSArchRESTClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08BB687DBB7DF2D3F09DC7AE /* Pods-iOSArchRESTClientTests.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug-test.xcconfig"; sourceTree = "<group>"; };
+		10434DA2D57C561AB633E97B /* Pods-iOSArchRESTClientUITests.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug-test.xcconfig"; sourceTree = "<group>"; };
 		10D8535A9864FF9AE25DEC29 /* Pods-iOSArchRESTClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15DEE36BD27ECAB78E198A7E /* Pods-iOSArchRESTClientUITests.release-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-test.xcconfig"; sourceTree = "<group>"; };
 		271CD69E8D76779E430FD6ED /* Pods-iOSArchRESTClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		3F4615322191924500CF4BBB /* iOSArchRESTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchRESTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4615352191924500CF4BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +62,31 @@
 		3F4615512191925400CF4BBB /* iOSArchRESTClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSArchRESTClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4615552191925400CF4BBB /* iOSArchRESTClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSArchRESTClientUITests.swift; sourceTree = "<group>"; };
 		3F4615572191925400CF4BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F929A08219297FC003B0243 /* iOSArchRESTClient-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSArchRESTClient-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F929A09219297FD003B0243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/doanphuchien/Documents/learn/ios/main/iOSArchRESTClient/Info.plist; sourceTree = "<absolute>"; };
+		3F929A0E21929CA0003B0243 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		3F929A1021929CF5003B0243 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		51A5F1EDDB6231CFAC9C4813 /* Pods-iOSArchRESTClient.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug-test.xcconfig"; sourceTree = "<group>"; };
 		5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C8A27FA0C9058532D10914 /* Pods-iOSArchRESTClientUITests.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-stag.xcconfig"; sourceTree = "<group>"; };
 		5AADE1A802FBFC81340E39B7 /* Pods-iOSArchRESTClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62B9E582EEA65574CBC29EDF /* Pods-iOSArchRESTClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release.xcconfig"; sourceTree = "<group>"; };
+		6A66DF9D1262992A227C3AC3 /* Pods-iOSArchRESTClientTests.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release-prod.xcconfig"; sourceTree = "<group>"; };
+		767EECD5773262D9BBD5CED9 /* Pods-iOSArchRESTClient.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release-stag.xcconfig"; sourceTree = "<group>"; };
+		80496A27FE0E77898839D5BF /* Pods-iOSArchRESTClient.release-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release-test.xcconfig"; sourceTree = "<group>"; };
+		83C4EC932F8FC83E8ACDB3FC /* Pods-iOSArchRESTClientTests.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug-stag.xcconfig"; sourceTree = "<group>"; };
 		857798E65A64D32E7826699F /* Pods_iOSArchRESTClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D8C75437B86F1935CF192DA /* Pods-iOSArchRESTClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug.xcconfig"; sourceTree = "<group>"; };
-		9BACF05D69548199388EB013 /* Pods-iOSArchRESTClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release.xcconfig"; sourceTree = "<group>"; };
+		90289F1FF8C5B1C7922DBE0B /* Pods-iOSArchRESTClient.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug-stag.xcconfig"; sourceTree = "<group>"; };
+		904B598EB7E3704E7F4628B8 /* Pods-iOSArchRESTClientUITests.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-prod.xcconfig"; sourceTree = "<group>"; };
+		9D12947248DA83FF0E73C17C /* Pods-iOSArchRESTClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug.xcconfig"; sourceTree = "<group>"; };
 		A1CEC6DB340A6E9C1A6086AF /* Pods_iOSArchRESTClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B784EAC019334C4F7DBE68F4 /* Pods-iOSArchRESTClientUITests.debug-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug-stag.xcconfig"; sourceTree = "<group>"; };
+		BA7FEFA455CF03374FC86784 /* Pods-iOSArchRESTClientTests.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release-stag.xcconfig"; sourceTree = "<group>"; };
+		BD99210D0F8241C6BE981798 /* Pods-iOSArchRESTClientUITests.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.debug-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.debug-prod.xcconfig"; sourceTree = "<group>"; };
+		DE15E46A54228AE21000E858 /* Pods-iOSArchRESTClient.release-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.release-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.release-prod.xcconfig"; sourceTree = "<group>"; };
+		E05907F9AFD69E713F233B1E /* Pods-iOSArchRESTClientTests.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.debug-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.debug-prod.xcconfig"; sourceTree = "<group>"; };
+		E798C3D9819610B052086964 /* Pods-iOSArchRESTClient.debug-prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug-prod.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug-prod.xcconfig"; sourceTree = "<group>"; };
+		F1552BADB058A54E9D7FAF2E /* Pods-iOSArchRESTClientTests.release-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientTests.release-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientTests/Pods-iOSArchRESTClientTests.release-test.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5857E8466B7C1996E2B81D0 /* Pods_iOSArchRESTClient.framework in Frameworks */,
+				4517798C7708706444B5817A /* Pods_iOSArchRESTClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,18 +115,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F9299F9219297FC003B0243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2DDC49B43DC88862BEE3EDAD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8D8C75437B86F1935CF192DA /* Pods-iOSArchRESTClient.debug.xcconfig */,
-				9BACF05D69548199388EB013 /* Pods-iOSArchRESTClient.release.xcconfig */,
 				10D8535A9864FF9AE25DEC29 /* Pods-iOSArchRESTClientTests.debug.xcconfig */,
 				271CD69E8D76779E430FD6ED /* Pods-iOSArchRESTClientTests.release.xcconfig */,
 				0141D1C66E074720B87A6EFA /* Pods-iOSArchRESTClientUITests.debug.xcconfig */,
 				5AADE1A802FBFC81340E39B7 /* Pods-iOSArchRESTClientUITests.release.xcconfig */,
+				9D12947248DA83FF0E73C17C /* Pods-iOSArchRESTClient.debug.xcconfig */,
+				E798C3D9819610B052086964 /* Pods-iOSArchRESTClient.debug-prod.xcconfig */,
+				90289F1FF8C5B1C7922DBE0B /* Pods-iOSArchRESTClient.debug-stag.xcconfig */,
+				51A5F1EDDB6231CFAC9C4813 /* Pods-iOSArchRESTClient.debug-test.xcconfig */,
+				62B9E582EEA65574CBC29EDF /* Pods-iOSArchRESTClient.release.xcconfig */,
+				DE15E46A54228AE21000E858 /* Pods-iOSArchRESTClient.release-prod.xcconfig */,
+				767EECD5773262D9BBD5CED9 /* Pods-iOSArchRESTClient.release-stag.xcconfig */,
+				80496A27FE0E77898839D5BF /* Pods-iOSArchRESTClient.release-test.xcconfig */,
+				E05907F9AFD69E713F233B1E /* Pods-iOSArchRESTClientTests.debug-prod.xcconfig */,
+				83C4EC932F8FC83E8ACDB3FC /* Pods-iOSArchRESTClientTests.debug-stag.xcconfig */,
+				08BB687DBB7DF2D3F09DC7AE /* Pods-iOSArchRESTClientTests.debug-test.xcconfig */,
+				6A66DF9D1262992A227C3AC3 /* Pods-iOSArchRESTClientTests.release-prod.xcconfig */,
+				BA7FEFA455CF03374FC86784 /* Pods-iOSArchRESTClientTests.release-stag.xcconfig */,
+				F1552BADB058A54E9D7FAF2E /* Pods-iOSArchRESTClientTests.release-test.xcconfig */,
+				BD99210D0F8241C6BE981798 /* Pods-iOSArchRESTClientUITests.debug-prod.xcconfig */,
+				B784EAC019334C4F7DBE68F4 /* Pods-iOSArchRESTClientUITests.debug-stag.xcconfig */,
+				10434DA2D57C561AB633E97B /* Pods-iOSArchRESTClientUITests.debug-test.xcconfig */,
+				904B598EB7E3704E7F4628B8 /* Pods-iOSArchRESTClientUITests.release-prod.xcconfig */,
+				53C8A27FA0C9058532D10914 /* Pods-iOSArchRESTClientUITests.release-stag.xcconfig */,
+				15DEE36BD27ECAB78E198A7E /* Pods-iOSArchRESTClientUITests.release-test.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -120,6 +174,7 @@
 				3F4615322191924500CF4BBB /* iOSArchRESTClient.app */,
 				3F4615462191925400CF4BBB /* iOSArchRESTClientTests.xctest */,
 				3F4615512191925400CF4BBB /* iOSArchRESTClientUITests.xctest */,
+				3F929A08219297FC003B0243 /* iOSArchRESTClient-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,7 +217,8 @@
 		3F4615632191965000CF4BBB /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				3F4615412191925300CF4BBB /* Info.plist */,
+				3F929A0B21929C39003B0243 /* DEV */,
+				3F929A0A21929C2C003B0243 /* PROD */,
 				3F4615352191924500CF4BBB /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -275,6 +331,24 @@
 			path = StoryBoards;
 			sourceTree = "<group>";
 		};
+		3F929A0A21929C2C003B0243 /* PROD */ = {
+			isa = PBXGroup;
+			children = (
+				3F929A1021929CF5003B0243 /* App.entitlements */,
+				3F929A09219297FD003B0243 /* Info.plist */,
+			);
+			path = PROD;
+			sourceTree = "<group>";
+		};
+		3F929A0B21929C39003B0243 /* DEV */ = {
+			isa = PBXGroup;
+			children = (
+				3F929A0E21929CA0003B0243 /* App.entitlements */,
+				3F4615412191925300CF4BBB /* Info.plist */,
+			);
+			path = DEV;
+			sourceTree = "<group>";
+		};
 		FC03B98B755D07CCA122DB18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +418,23 @@
 			productReference = 3F4615512191925400CF4BBB /* iOSArchRESTClientUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3F9299F4219297FC003B0243 /* iOSArchRESTClient-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9299FF219297FC003B0243 /* Build configuration list for PBXNativeTarget "iOSArchRESTClient-dev" */;
+			buildPhases = (
+				3F9299F6219297FC003B0243 /* Sources */,
+				3F9299F9219297FC003B0243 /* Frameworks */,
+				3F9299FB219297FC003B0243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSArchRESTClient-dev";
+			productName = iOSArchRESTClient;
+			productReference = 3F929A08219297FC003B0243 /* iOSArchRESTClient-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +447,23 @@
 				TargetAttributes = {
 					3F4615312191924500CF4BBB = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 					3F4615452191925400CF4BBB = {
 						CreatedOnToolsVersion = 10.1;
@@ -364,6 +472,16 @@
 					3F4615502191925400CF4BBB = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 3F4615312191924500CF4BBB;
+					};
+					3F9299F4219297FC003B0243 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -380,6 +498,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3F9299F4219297FC003B0243 /* iOSArchRESTClient-dev */,
 				3F4615312191924500CF4BBB /* iOSArchRESTClient */,
 				3F4615452191925400CF4BBB /* iOSArchRESTClientTests */,
 				3F4615502191925400CF4BBB /* iOSArchRESTClientUITests */,
@@ -409,6 +528,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9299FB219297FC003B0243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9299FC219297FC003B0243 /* LaunchScreen.storyboard in Resources */,
+				3F9299FD219297FC003B0243 /* Assets.xcassets in Resources */,
+				3F9299FE219297FC003B0243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +635,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F4615562191925400CF4BBB /* iOSArchRESTClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9299F6219297FC003B0243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9299F7219297FC003B0243 /* ViewController.swift in Sources */,
+				3F9299F8219297FC003B0243 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,18 +800,20 @@
 		};
 		3F46155B2191925400CF4BBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D8C75437B86F1935CF192DA /* Pods-iOSArchRESTClient.debug.xcconfig */;
+			baseConfigurationReference = 9D12947248DA83FF0E73C17C /* Pods-iOSArchRESTClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H7XX8W448R;
-				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -681,18 +821,20 @@
 		};
 		3F46155C2191925400CF4BBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BACF05D69548199388EB013 /* Pods-iOSArchRESTClient.release.xcconfig */;
+			baseConfigurationReference = 62B9E582EEA65574CBC29EDF /* Pods-iOSArchRESTClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H7XX8W448R;
-				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -784,6 +926,898 @@
 			};
 			name = Release;
 		};
+		3F9299DC21929713003B0243 /* Debug-TEST */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-TEST";
+		};
+		3F9299DD21929713003B0243 /* Debug-TEST */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A5F1EDDB6231CFAC9C4813 /* Pods-iOSArchRESTClient.debug-test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-TEST";
+		};
+		3F9299DE21929713003B0243 /* Debug-TEST */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BB687DBB7DF2D3F09DC7AE /* Pods-iOSArchRESTClientTests.debug-test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSArchRESTClient.app/iOSArchRESTClient";
+			};
+			name = "Debug-TEST";
+		};
+		3F9299DF21929713003B0243 /* Debug-TEST */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10434DA2D57C561AB633E97B /* Pods-iOSArchRESTClientUITests.debug-test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSArchRESTClient;
+			};
+			name = "Debug-TEST";
+		};
+		3F9299E02192972E003B0243 /* Release-TEST */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-TEST";
+		};
+		3F9299E12192972E003B0243 /* Release-TEST */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80496A27FE0E77898839D5BF /* Pods-iOSArchRESTClient.release-test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-TEST";
+		};
+		3F9299E22192972E003B0243 /* Release-TEST */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1552BADB058A54E9D7FAF2E /* Pods-iOSArchRESTClientTests.release-test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSArchRESTClient.app/iOSArchRESTClient";
+			};
+			name = "Release-TEST";
+		};
+		3F9299E32192972E003B0243 /* Release-TEST */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DEE36BD27ECAB78E198A7E /* Pods-iOSArchRESTClientUITests.release-test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSArchRESTClient;
+			};
+			name = "Release-TEST";
+		};
+		3F9299E42192974A003B0243 /* Debug-STAG */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-STAG";
+		};
+		3F9299E52192974A003B0243 /* Debug-STAG */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90289F1FF8C5B1C7922DBE0B /* Pods-iOSArchRESTClient.debug-stag.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-STAG";
+		};
+		3F9299E62192974A003B0243 /* Debug-STAG */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C4EC932F8FC83E8ACDB3FC /* Pods-iOSArchRESTClientTests.debug-stag.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSArchRESTClient.app/iOSArchRESTClient";
+			};
+			name = "Debug-STAG";
+		};
+		3F9299E72192974A003B0243 /* Debug-STAG */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B784EAC019334C4F7DBE68F4 /* Pods-iOSArchRESTClientUITests.debug-stag.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSArchRESTClient;
+			};
+			name = "Debug-STAG";
+		};
+		3F9299E821929755003B0243 /* Release-STAG */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-STAG";
+		};
+		3F9299E921929755003B0243 /* Release-STAG */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767EECD5773262D9BBD5CED9 /* Pods-iOSArchRESTClient.release-stag.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-STAG";
+		};
+		3F9299EA21929755003B0243 /* Release-STAG */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7FEFA455CF03374FC86784 /* Pods-iOSArchRESTClientTests.release-stag.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSArchRESTClient.app/iOSArchRESTClient";
+			};
+			name = "Release-STAG";
+		};
+		3F9299EB21929755003B0243 /* Release-STAG */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C8A27FA0C9058532D10914 /* Pods-iOSArchRESTClientUITests.release-stag.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSArchRESTClient;
+			};
+			name = "Release-STAG";
+		};
+		3F9299EC2192975D003B0243 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-PROD";
+		};
+		3F9299ED2192975D003B0243 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E798C3D9819610B052086964 /* Pods-iOSArchRESTClient.debug-prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-PROD";
+		};
+		3F9299EE2192975D003B0243 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05907F9AFD69E713F233B1E /* Pods-iOSArchRESTClientTests.debug-prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSArchRESTClient.app/iOSArchRESTClient";
+			};
+			name = "Debug-PROD";
+		};
+		3F9299EF2192975D003B0243 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD99210D0F8241C6BE981798 /* Pods-iOSArchRESTClientUITests.debug-prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSArchRESTClient;
+			};
+			name = "Debug-PROD";
+		};
+		3F9299F021929766003B0243 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-PROD";
+		};
+		3F9299F121929766003B0243 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE15E46A54228AE21000E858 /* Pods-iOSArchRESTClient.release-prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company.your-customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-PROD";
+		};
+		3F9299F221929766003B0243 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A66DF9D1262992A227C3AC3 /* Pods-iOSArchRESTClientTests.release-prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSArchRESTClient.app/iOSArchRESTClient";
+			};
+			name = "Release-PROD";
+		};
+		3F9299F321929766003B0243 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904B598EB7E3704E7F4628B8 /* Pods-iOSArchRESTClientUITests.release-prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = iOSArchRESTClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSArchRESTClient;
+			};
+			name = "Release-PROD";
+		};
+		3F929A00219297FC003B0243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F929A01219297FC003B0243 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-PROD";
+		};
+		3F929A02219297FC003B0243 /* Debug-STAG */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-STAG";
+		};
+		3F929A03219297FC003B0243 /* Debug-TEST */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-TEST";
+		};
+		3F929A04219297FC003B0243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F929A05219297FC003B0243 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-PROD";
+		};
+		3F929A06219297FC003B0243 /* Release-STAG */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-STAG";
+		};
+		3F929A07219297FC003B0243 /* Release-TEST */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7XX8W448R;
+				INFOPLIST_FILE = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.iOSArchRESTClient.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-TEST";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -791,7 +1825,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F4615582191925400CF4BBB /* Debug */,
+				3F9299EC2192975D003B0243 /* Debug-PROD */,
+				3F9299E42192974A003B0243 /* Debug-STAG */,
+				3F9299DC21929713003B0243 /* Debug-TEST */,
 				3F4615592191925400CF4BBB /* Release */,
+				3F9299F021929766003B0243 /* Release-PROD */,
+				3F9299E821929755003B0243 /* Release-STAG */,
+				3F9299E02192972E003B0243 /* Release-TEST */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -800,7 +1840,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F46155B2191925400CF4BBB /* Debug */,
+				3F9299ED2192975D003B0243 /* Debug-PROD */,
+				3F9299E52192974A003B0243 /* Debug-STAG */,
+				3F9299DD21929713003B0243 /* Debug-TEST */,
 				3F46155C2191925400CF4BBB /* Release */,
+				3F9299F121929766003B0243 /* Release-PROD */,
+				3F9299E921929755003B0243 /* Release-STAG */,
+				3F9299E12192972E003B0243 /* Release-TEST */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -809,7 +1855,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F46155E2191925400CF4BBB /* Debug */,
+				3F9299EE2192975D003B0243 /* Debug-PROD */,
+				3F9299E62192974A003B0243 /* Debug-STAG */,
+				3F9299DE21929713003B0243 /* Debug-TEST */,
 				3F46155F2191925400CF4BBB /* Release */,
+				3F9299F221929766003B0243 /* Release-PROD */,
+				3F9299EA21929755003B0243 /* Release-STAG */,
+				3F9299E22192972E003B0243 /* Release-TEST */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -818,7 +1870,28 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F4615612191925400CF4BBB /* Debug */,
+				3F9299EF2192975D003B0243 /* Debug-PROD */,
+				3F9299E72192974A003B0243 /* Debug-STAG */,
+				3F9299DF21929713003B0243 /* Debug-TEST */,
 				3F4615622191925400CF4BBB /* Release */,
+				3F9299F321929766003B0243 /* Release-PROD */,
+				3F9299EB21929755003B0243 /* Release-STAG */,
+				3F9299E32192972E003B0243 /* Release-TEST */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9299FF219297FC003B0243 /* Build configuration list for PBXNativeTarget "iOSArchRESTClient-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F929A00219297FC003B0243 /* Debug */,
+				3F929A01219297FC003B0243 /* Debug-PROD */,
+				3F929A02219297FC003B0243 /* Debug-STAG */,
+				3F929A03219297FC003B0243 /* Debug-TEST */,
+				3F929A04219297FC003B0243 /* Release */,
+				3F929A05219297FC003B0243 /* Release-PROD */,
+				3F929A06219297FC003B0243 /* Release-STAG */,
+				3F929A07219297FC003B0243 /* Release-TEST */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
