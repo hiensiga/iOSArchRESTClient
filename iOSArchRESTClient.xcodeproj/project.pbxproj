@@ -21,6 +21,7 @@
 		3F9299FC219297FC003B0243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F46153E2191925300CF4BBB /* LaunchScreen.storyboard */; };
 		3F9299FD219297FC003B0243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F46153C2191925300CF4BBB /* Assets.xcassets */; };
 		3F9299FE219297FC003B0243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4615392191924500CF4BBB /* Main.storyboard */; };
+		3F929A1C2192A049003B0243 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F929A1B2192A049003B0243 /* HealthKit.framework */; };
 		4517798C7708706444B5817A /* Pods_iOSArchRESTClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */; };
 		A5857E8466B7C1996E2B81D0 /* Pods_iOSArchRESTClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */; };
 /* End PBXBuildFile section */
@@ -64,8 +65,9 @@
 		3F4615572191925400CF4BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F929A08219297FC003B0243 /* iOSArchRESTClient-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSArchRESTClient-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F929A09219297FD003B0243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/doanphuchien/Documents/learn/ios/main/iOSArchRESTClient/Info.plist; sourceTree = "<absolute>"; };
-		3F929A0E21929CA0003B0243 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		3F929A1021929CF5003B0243 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		3F929A1B2192A049003B0243 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3F929A1D2192A049003B0243 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		51A5F1EDDB6231CFAC9C4813 /* Pods-iOSArchRESTClient.debug-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClient.debug-test.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClient/Pods-iOSArchRESTClient.debug-test.xcconfig"; sourceTree = "<group>"; };
 		5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchRESTClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C8A27FA0C9058532D10914 /* Pods-iOSArchRESTClientUITests.release-stag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchRESTClientUITests.release-stag.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchRESTClientUITests/Pods-iOSArchRESTClientUITests.release-stag.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F929A1C2192A049003B0243 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +346,7 @@
 		3F929A0B21929C39003B0243 /* DEV */ = {
 			isa = PBXGroup;
 			children = (
-				3F929A0E21929CA0003B0243 /* App.entitlements */,
+				3F929A1D2192A049003B0243 /* App.entitlements */,
 				3F4615412191925300CF4BBB /* Info.plist */,
 			);
 			path = DEV;
@@ -352,6 +355,7 @@
 		FC03B98B755D07CCA122DB18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F929A1B2192A049003B0243 /* HealthKit.framework */,
 				5282183C43D1B792C1BFBE51 /* Pods_iOSArchRESTClient.framework */,
 				A1CEC6DB340A6E9C1A6086AF /* Pods_iOSArchRESTClientTests.framework */,
 				857798E65A64D32E7826699F /* Pods_iOSArchRESTClientUITests.framework */,
@@ -479,6 +483,9 @@
 								enabled = 0;
 							};
 							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
 								enabled = 0;
 							};
 						};
@@ -1662,6 +1669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1682,6 +1690,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1702,6 +1711,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1722,6 +1732,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1742,6 +1753,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1762,6 +1774,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1782,6 +1795,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
@@ -1802,6 +1816,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOSArchRESTClient/Application/DEV/App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XX8W448R;
